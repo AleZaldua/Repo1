@@ -88,7 +88,6 @@ button {
   background-color: #FFDD15;
 }
 #designThinking {
-  grid-area: designThinking;
   display: flex;
 }
 #footer {
@@ -110,7 +109,7 @@ p {
 }
 #innerGrid {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
 }
 #inner-grid > div {
@@ -169,6 +168,7 @@ p {
   "home home";
 }
 .dT {
+  height: fit-content;
   justify-content: left;
   align-items: start;
   grid-area: stuff;
@@ -200,8 +200,12 @@ footer {
 .left-side img, .right-side img {
   margin-right: 5px;
   vertical-align: middle;
-}
 
+}
+.footerTitle {
+  justify-content: left;
+  align-items: start;
+}
 .right-side a {
   margin-right: 10px;
   justify-content: right;
