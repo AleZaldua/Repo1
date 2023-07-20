@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../My_First_Repo"
+		},
+		{
+			"path": "../../My_First_Repo/Visual Studio Code"
+		},
+		{
+			"path": "../../My_Second_Repo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Visual Studio Code"
+	}
+}

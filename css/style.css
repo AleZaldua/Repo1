@@ -87,9 +87,9 @@ button {
   grid-area: lego;
   background-color: #FFDD15;
 }
-#designThinking p {
+#designThinking {
   grid-area: designThinking;
-  display: inline;
+  display: flex;
 }
 #footer {
   grid-area: footer;
@@ -160,9 +160,25 @@ p {
   font-family: "Urbanist", sans-serif;
   font-weight: 500;
 }
+.box {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr ;
+  grid-template-areas:
+  "stuff stuff"
+  "home home";
+}
 .dT {
   justify-content: left;
   align-items: start;
+  grid-area: stuff;
+}
+.homeButton{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 24px;
+  grid-area: home;
 }
 
 footer {
