@@ -46,11 +46,9 @@ button {
 /* Body CSS */
 
 #aleGrid {
-  margin: 0px 5%;
+  margin: 0px 10%;
   display: grid;
-  min-height: 500px;
-  height: 140vh;
-  grid-template-rows: 20% 40% 20% 20%;
+  grid-template-rows: 20% 30% 20% 30%;
   grid-template-columns: 30% 70%;
   grid-template-areas:
   "heroImg topContent topContent topContent"
@@ -81,7 +79,7 @@ button {
 #skills {
   grid-area: skills;
   justify-content: space-around;
-  align-items: flex-end;
+  align-items: start;
 }
 #lego {
   grid-area: lego;
@@ -94,9 +92,8 @@ button {
   grid-area: footer;
   display: grid;
   background-color: #3b3b3b;
-  padding: 10px;
+  padding: 0px;
   justify-content: space-between;
-  align-items: end;
   font-family: "Urbanist", sans-serif;
 }
 
@@ -120,8 +117,8 @@ p {
   font-size: 24pt;
   font-family: "Urbanist", sans-serif;
   font-weight: 700;
-  display: inline-grid;
-  margin-top: 40px;
+  display: inline;
+  
 }
 #softSkills {
   font-size: 20pt;
@@ -177,8 +174,9 @@ p {
   align-items: center;
   display: flex;
   justify-content: center;
-  padding-bottom: 24px;
+  padding-bottom: 20px;
   grid-area: home;
+  margin: -10px 0%;
 }
 
 footer {
@@ -187,20 +185,18 @@ footer {
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  margin: 10px 0%;
 }
 
-
 .left-side {
-  margin: 0;
+  margin: 10px 0%;
   font-family: "Urbanist", sans-serif;
   color: white;
   justify-content: left;
 }
-
 .left-side img, .right-side img {
   margin-right: 5px;
   vertical-align: middle;
-
 }
 .footerTitle {
   justify-content: left;
@@ -215,4 +211,5 @@ footer {
   width: 30px;
   height: 30px;
   justify-content: right;
+  align-items: center;
 }
