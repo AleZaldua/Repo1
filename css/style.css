@@ -185,7 +185,7 @@ footer {
   padding: 20px;
   display: flex;
   justify-content: space-between;
-  margin: 10px 0%;
+  margin: 5px 0%;
 }
 
 .left-side {
@@ -200,7 +200,7 @@ footer {
 }
 .footerTitle {
   justify-content: left;
-  align-items: start;
+  margin-bottom: 10px;
 }
 .right-side a {
   margin-right: 10px;
