@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;500;700&display=swap');
+
+/* Nav Bar CSS */
+* {
+  box-sizing: border-box;
+}
+
+li, a, button {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 20px 20px 50px grey;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+.navlinks {
+  list-style: none;  
+}
+.navlinks li {
+  display: inline-block;
+  padding: 0px 18px;
+}
+
+button {
+  padding: 9px 18px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+label {
+    margin: 0 10px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+#toggle {
+    display: none;
+}
+
+/* Body CSS */
+.workGrid {
+    margin: 0px 10%;
+    display: grid;
+    column-gap: 120px;
+    row-gap: 50px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "travel edu tiny"   
+}
+
+.top {
+    padding: 30px 10%;
+    font-family: "Urbanist", sans-serif;
+    margin-top: 20px;
+}
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h1 {
+    font-family: "Urbanist", sans-serif;
+}
+p {
+    font-family: "Urbanist", sans-serif;
+    text-align: left;
+    font-weight: 300;
+    font-size: 14pt;
+    margin-bottom: 40px;
+}
+.openCase {
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.subContent {
+    background-color: #FFDD15;
+    color: black;
+}
+
+
+
+/* Footer CSS */
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0%;
+  }
+  
+  .left-side {
+    margin: 0px 10px;
+    font-family: "Urbanist", sans-serif;
+    color: white;
+    justify-content: left;
+  }
+
+  .left-side img, .right-side img {
+    margin-right: 5px;
+    vertical-align: middle;
+
+  }
+  .footerTitle {
+    justify-content: left;
+    font-size: 18pt;
+    margin: 0 0 15px 0;
+  }
+  .right-side a {
+    margin-right: 10px;
+    justify-content: right;
+  }
+  
+  .right-side img {
+    width: 30px;
+    height: 30px;
+    justify-content: right;
+    align-items: center;
+  }
+
+
+  /* Media Query */
+  @media only screen and (max-width: 1000px) {
+    .navlinks {
+        display: none;
+      }
+  }
+  @media only screen and (max-width: 800px) {
+    .top {
+        position: static;
+        margin: 20px;
+    }
+    .workGrid {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "travel" 
+        "edu" 
+        "tiny"
+        ; 
+    }
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    footer {
+        display: block;
+    }
+    .right-side {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+ }
+    
