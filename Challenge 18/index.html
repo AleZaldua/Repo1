@@ -5,28 +5,29 @@
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <meta charset="utf-8">
 </head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 <body>
         <!-- NavBar HTML -->
         <header>
-            <img class="logo" src="images/logoazf.png" alt="Alejandro Zaldua Logo">
-            <nav>
-                <label for="toggle">&#9776;</label>
-                <input type="checkbox" id="toggle"/>
-                <ul class="navlinks">
-                    <li class="navlinks"><a href="#"><img src="images/briefcase.png" alt="Work Icon"> Work</a></li>
-                    <li class="navlinks"><a href="#"><img src="images/user.png" alt="About Me Icon"> About Me</a></li>
-                </ul>
-            </nav>
-            <a class="navlinks" href="#"><button><img src="images/contact-us.png" alt="Contact Me Icon">  Contact Me</button></a>
-            <nav>
-                <ul class="navlinks2">
-                    <li class="navlinks2"><a href="#"><img src="images/briefcase.png" alt="Work Icon"> Work</a></li>
-                    <li class="navlinks2"><a href="#"><img src="images/user.png" alt="About Me Icon"> About Me</a></li>
-                    <li class="navlinks2"><a href="#"><img src="images//Contact Us Icon Black.png" alt="Contact Me Icon"> Contact Me</a></li>
-                </ul>
-            </nav>
-        </header>
-
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <img class="logo" src="images/logoazf.png" alt="Alejandro Zaldua Logo">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav col-lg-12" id="nav1">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="images/user.png" alt="About Me Icon"> About Me</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><img src="images/briefcase.png" alt="Work Icon"> Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><button><img src="images/contact-us.png" alt="Contact Me Icon">  Contact Me</button></a></li>
+                  </ul>
+                </div>
+              </nav>
+            </header>
         
         <!-- Body HTML -->
         <section class="top">
@@ -37,7 +38,7 @@
         <section class="workGrid">
             <div id="travel" class="workGridArea">
                 <img class="Card" src="images/travelAssistMeCard.png">
-                <h1>Travel AssistMe APP</h1>
+                <h1 class="heading">Travel AssistMe APP</h1>
                 <p>How to <span style="font-weight:bold">planning</span> your upcoming <span style="font-weight:bold">trip</span> while stay <span style="font-weight:bold">on budget</span> and <span style="font-weight:bold">survive</span> to tell the <span style="font-weight:bold">story.</span></p>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -47,13 +48,13 @@
             </div>
             <div id="edu" class="workGridArea">
                 <img class="Card" src="images/EduDepCard.png">
-                <h1>Website Redesign USA Dep Edu</h1>
+                <h1 class="heading">Website Redesign USA Dep Edu</h1>
                 <p><span style="font-weight:bold">Revamping</span> a <span style="font-weight:bold">90s looking-vintage site</span> (at least that is what users told me) <span style="font-weight:bold">into a</span> modern, functional & <span style="font-weight:bold">user-friendly website.</p>
                 <a class="openCase" href="#"><button><img src="images/Case Study Icon.png" alt="open case study icon"> &nbsp;OPEN CASE STUDY</button></a>
             </div>
             <div id="tiny" class="workGridArea">
                 <img class="Card" src="images/TinaTalesCard.png">
-                <h1>Tiny Tales, Children Milestone APP</h1>
+                <h1 class="heading">Tiny Tales, Children Milestone APP</h1>
                 <p> How to <span style="font-weight:bold">bring peace of mind</span> to parents by <span style="font-weight:bold">providing </span>a easy <span style="font-weight:bold">way</span> to <span style="font-weight:bold">organize</span> and <span style="font-weight:bold"> sharing </span>their <span style="font-weight:bold">child’s growth journey.</span> </p>
                 <a class="openCase" href="#"><button><img src="images/Case Study Icon.png" alt="open case study icon"> &nbsp;OPEN CASE STUDY</button></a>
             </div>
@@ -62,14 +63,14 @@
 
 
         <!-- Footer HTML -->
-        <footer>
+        <footer id="footer1">
             <div class="left-side">
               <p class="footerTitle">READY TO START, LET'S TALK!</p>
               <div class="contact-info">
-                <img src="images/email.png" alt="Email" />
-                <span>alejandrozaldua85@gmail.com</span>
-                <img src="images/phone.png" alt="Phone" />
-                <span>647-572-9595</span>
+                <img src="images/email.png" alt="Email" /> &nbsp;
+                <span> alejandrozaldua85@gmail.com &nbsp; &nbsp; </span>
+                <img src="images/phone.png" alt="Phone" /> &nbsp;
+                <span> 647-572-9595</span>
               </div>
             </div>
             <div class="right-side">
@@ -79,6 +80,9 @@
               <a href="https://www.youtube.com"><img src="images/youtube.png" alt="YouTube" /></a>
             </div>
           </footer>
-    
+
+          <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+          
 </body>
 </html>
