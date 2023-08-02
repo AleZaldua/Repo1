@@ -123,3 +123,24 @@ button {
   .right-side a{
     margin-left: 10px;
   }
+
+    /* Media Query */
+    @media only screen and (max-width: 1000px) {
+        .navlinks {
+            display: none;
+            }
+        .navlinks2 {
+              display: none;
+            }
+      }
+    
+      @media only screen and (max-width: 600px) {
+       
+        #footer1 {
+            display: block;
+        }
+        .right-side {
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+      }
