@@ -34,13 +34,20 @@
                     <div id="headline">
                       <h1 id="hello">Hello, my name is ALEJANDRO</h1>
                       <br></br>
-                      <h2 id="build">Let's build your</h2>
-                      <p class="concept">CONCEPT</p>
-                      <p class="story">Stories</p>
-                      <p class="project">PROJECTS</p>
                     </div>
+                    <div class="build">
+                      <h2>Let's build your <span class="animate"></span></h2>
+                    </div>
+                    
                   </div>
               </section>
+
+              <!-- JUST IN CASE -->
+              <!--p class="concept">CONCEPT</p>-->
+              <!--p class="story">Stories</p>-->
+              <!--p class="project">PROJECTS</p>-->
+
+
 
               <!-- Footer HTML -->
         <footer id="footer1">
@@ -70,7 +77,21 @@
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
           <script src="js/template.js"></script>
           <script src="js/index.js"></script>
+         
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+          <script src="js/typed.js"></script>
+          <script>
+            var typed = new Typed('.animate', {
+    strings: [
+        "Concept",
+        "Stories",
+        "Projects"
+    ],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: true
+    });
+          </script>
           
           
 </body>

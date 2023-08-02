@@ -73,6 +73,25 @@ button {
     font-family: "Urbanist", sans-serif;
     text-align: center;
   }
+.build h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Urbanist", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30pt;
+    font-weight: 900;
+}
+
+.build h2 span {
+    color: rgb(255, 220, 21);
+}
+
 .concept{
     color: rgb(255, 220, 21);
     font-size: 30pt;
@@ -141,6 +160,8 @@ button {
     animation: spin 5s ease;
     width: 150px;
   }
+
+
 
   @keyframes spin {
     0% {
