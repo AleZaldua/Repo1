@@ -75,8 +75,8 @@ button {
   }
 .build h2 {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 70%;
+    left: 69%;
     transform: translate(-50%,-50%);
     width: 100%;
     text-align: center;
