@@ -73,26 +73,20 @@ button {
     font-family: "Urbanist", sans-serif;
     text-align: center;
   }
-.build h2 {
-    position: absolute;
-    top: 70%;
-    left: 69%;
-    transform: translate(-50%,-50%);
-    width: 100%;
-    text-align: center;
+ 
+    #example {
     margin: 0;
-    padding: 0;
-    font-family: "Urbanist", sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 30pt;
-    font-weight: 900;
-}
-
-.build h2 span {
     color: rgb(255, 220, 21);
-}
+    font-family: "Urbanist", sans-serif;
+    position: absolute;
+    right: 290px;
+    top: 400px;
+    }
+    
 
-.concept{
+
+/* JUST IN CASE */
+/*.concept{
     color: rgb(255, 220, 21);
     font-size: 30pt;
     font-weight: 900;
@@ -108,7 +102,7 @@ button {
     color: white;
     font-size: 30pt;
     font-family: 'Alfa Slab One', cursive;
-}
+}*/
 
 /* Footer CSS */
 #footer1 {
