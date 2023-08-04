@@ -37,8 +37,23 @@
                     </div>
                     <div class="box">
                       <h2>Let's build your</h2>
-                      <h1 id="example"></h1>
-                     </div>  
+                     </div>
+                     <div id="container">
+                      <span id="text1"></span>
+                      <span id="text2"></span>
+                  </div>
+                  
+                  <svg id="filters">
+                      <defs>
+                          <filter id="threshold">
+                              <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                                    0 1 0 0 0
+                                    0 0 1 0 0
+                                    0 0 0 255 -140" />
+                          </filter>
+                      </defs>
+                  </svg>
+
                   </div>
               </section>
 
@@ -75,8 +90,8 @@
           <script src="js/template.js"></script>
           <script src="js/index.js"></script>
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-         <script src="//code.jquery.com/jquery.min.js"></script>
-         <script src="typer.min.js"></script>
+
+
 
           
         

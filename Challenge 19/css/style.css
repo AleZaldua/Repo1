@@ -66,7 +66,7 @@ button {
     color: white;
     position: absolute;
     right: 290px;
-    top: 400px;
+    top: 280px;
     padding: 25px;
     max-width: 550px;
     z-index: 100;
@@ -74,14 +74,36 @@ button {
     text-align: center;
   }
  
-    #example {
-    margin: 0;
-    color: rgb(255, 220, 21);
-    font-family: "Urbanist", sans-serif;
+.box h2 {
+    color: white;
     position: absolute;
-    right: 290px;
-    top: 400px;
-    }
+    right: 455px;
+    top: 415px;
+    font-family: "Urbanist", sans-serif;
+}
+#container {
+  position: absolute;
+  margin: auto;
+  width: 100vw;
+  height: 5pt;
+  top: 0;
+  bottom: 0;
+
+  filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+  color: gold;
+  position: absolute;
+  width: 140%;
+  display: inline-block;
+  font-family: "Urbanist", sans-serif;
+  font-size: 40pt;
+  text-align: center;
+
+  user-select: none;
+}
     
 
 
