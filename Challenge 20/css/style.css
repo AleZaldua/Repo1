@@ -39,6 +39,14 @@ button {
 
 /* Body CSS */
 
+.container{
+    font-family: "Urbanist", sans-serif;
+}
+.coverImage{
+    display: flex;
+    justify-content: right;
+}
+
 /* Footer CSS */
 #footer1 {
     background-color: black;
