@@ -44,7 +44,9 @@ button {
     font-weight: 500;
 }
 .coverImage{
-    justify-content:center;
+    width: 70%;
+    margin: auto;
+    display: block;
     padding-bottom: 10px;
 }
 
@@ -56,7 +58,7 @@ button {
 }
 .Role, .Tools {
     font-size: 16pt;
-    font-weight: 700;
+    font-weight: 500pt;
 }
 .title {
     font-family: "Urbanist", sans-serif;
@@ -65,9 +67,17 @@ button {
     padding: 5px 0x;
     margin-left: 390px;
 }
+.title2{
+    font-family: "Urbanist", sans-serif;
+    font-size: 20pt;
+    font-weight: 500;
+    padding: 5px 0x;
+    margin-left: 390px;
+
+}
 .subtitle {
     font-family: "Urbanist", sans-serif;
-    font-size: 16pt;
+    font-size: 18pt;
     font-weight: 300;
     padding: 10px 0px;
     margin-left: 390px;
@@ -135,15 +145,20 @@ button {
     background-color: yellow;
     font-family: "Urbanist", sans-serif;
     font-size: 16pt;
-    font-weight: 300;
-    display: inline-block;   
+    font-weight: 300;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
 }
-
-.vp{
-    margin-left: 390px;
-    margin-right: 390px; 
-}
-
+.ur2 {
+    font-family: "Urbanist", sans-serif;
+    font-size: 14pt;
+    font-weight: 500;
+    padding: 0px 10px;
+    width: 560px;
+    height: 35px;
+    }
 
 
 
