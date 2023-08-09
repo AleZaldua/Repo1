@@ -41,11 +41,117 @@ button {
 
 .container{
     font-family: "Urbanist", sans-serif;
+    font-weight: 500;
 }
 .coverImage{
-    display: flex;
-    justify-content: right;
+    justify-content:center;
+    padding-bottom: 10px;
 }
+
+.summaryTop {
+    background-color: yellow;
+    padding: 50px;
+    font-weight: 500;
+    font-size: 18pt;
+}
+.Role, .Tools {
+    font-size: 16pt;
+    font-weight: 700;
+}
+.title {
+    font-family: "Urbanist", sans-serif;
+    font-size: 25pt;
+    font-weight: 700;
+    padding: 5px 0x;
+    margin-left: 390px;
+}
+.subtitle {
+    font-family: "Urbanist", sans-serif;
+    font-size: 16pt;
+    font-weight: 300;
+    padding: 10px 0px;
+    margin-left: 390px;
+    font-style: italic;
+    
+}
+.ur {
+    font-family: "Urbanist", sans-serif;
+    font-size: 14pt;
+    font-weight: 500;
+    padding: 0px 10px;
+    margin-left: 380px;
+    margin-right: 390px; 
+    }
+.quote {
+    width: 60%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#carouselExampleIndicators {
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+.special {
+    font-size: 20pt;
+    font-weight: 700; 
+    text-align: center;
+    margin-top: 10px;
+}
+.list {
+    margin-left: 400px;
+    margin-right: 390px;
+    font-size: 14pt; 
+}
+.challenge {
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.t1 {
+    font-family: "Urbanist", sans-serif;
+    font-size: 25pt;
+    font-weight: 700;
+    padding: 5px 0x;
+    margin-left: 390px;
+}
+.c2 {
+    font-family: "Urbanist", sans-serif;
+    font-size: 16pt;
+    font-weight: 300;
+    padding: 10px 0px;
+    margin-left: 390px;
+    margin-right: 390px; 
+}
+.matrix {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+.value {
+    background-color: yellow;
+    font-family: "Urbanist", sans-serif;
+    font-size: 16pt;
+    font-weight: 300;
+    display: inline-block;   
+}
+
+.vp{
+    margin-left: 390px;
+    margin-right: 390px; 
+}
+
+
+
+
+
+
+
+
+
 
 /* Footer CSS */
 #footer1 {
@@ -98,6 +204,12 @@ button {
     .top {
         position: static;
         margin: 20px;
+    }
+    .title {
+        margin: none;
+    }
+    .ur {
+        margin: none; 
     }
    
     #footer1 {
