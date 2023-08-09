@@ -73,7 +73,27 @@ button {
     font-weight: 500;
     padding: 5px 0x;
     margin-left: 390px;
-
+}
+.title3 {
+    font-family: "Urbanist", sans-serif;
+    font-size: 18pt;
+    font-weight: 500;
+    margin-left: 300px;
+    color: white;
+    background-color: black; 
+}
+.title4 {
+    font-family: "Urbanist", sans-serif;
+    font-size: 18pt;
+    font-weight: 700;
+    text-align: center;
+    background-color: yellow; 
+}
+.title5 {
+    font-family: "Urbanist", sans-serif;
+    font-size: 25pt;
+    font-weight: 700;
+    color: white; 
 }
 .subtitle {
     font-family: "Urbanist", sans-serif;
@@ -119,6 +139,7 @@ button {
     margin: auto;
     display: block;
     margin-bottom: 20px;
+    width: 80%;
 }
 
 .t1 {
@@ -158,7 +179,28 @@ button {
     padding: 0px 10px;
     width: 560px;
     height: 35px;
-    }
+}
+.urp {
+    font-family: "Urbanist", sans-serif;
+    font-size: 14pt;
+    font-weight: 500;
+    background-color: yellow;
+    margin-left: 390px;
+    width: 300px;
+}
+.lesson {
+    font-family: "Urbanist", sans-serif;
+    background-color: black;
+    padding: 200px 200px;
+}
+.ur3 {
+    font-family: "Urbanist", sans-serif;  
+    font-size: 14pt;
+    font-weight: 500;
+    color: white;
+}
+
+
 
 
 
