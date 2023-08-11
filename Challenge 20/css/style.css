@@ -67,21 +67,6 @@ button {
     font-weight: 900; 
     padding: 10px 10%;
 }
-.subtitle {
-    font-family: "Urbanist", sans-serif;
-    font-style: italic;
-    font-size: 18pt;
-    font-weight: 500pt;
-    padding: 10px 10%;
-}
-.ur {
-    font-family: "Urbanist", sans-serif;
-    font-size: 16pt;
-    font-weight: 500pt;
-    padding: 10px 10%;
-}
-
-
 .title3 {
     font-family: "Urbanist", sans-serif;
     font-size: 18pt;
@@ -103,9 +88,52 @@ button {
     font-weight: 700;
     color: white; 
 }
+.subtitle {
+    font-family: "Urbanist", sans-serif;
+    font-style: italic;
+    font-size: 18pt;
+    font-weight: 500pt;
+    padding: 10px 10%;
+}
+.ur {
+    font-family: "Urbanist", sans-serif;
+    font-size: 16pt;
+    font-weight: 500pt;
+    padding: 10px 10%;
+}
+.ur2 {
+    font-family: "Urbanist", sans-serif;
+    font-size: 16pt;
+    font-weight: 900;
+    padding: 10px 10%;
+    background-color: yellow;
+}
+.ur3 {
+    font-family: "Urbanist", sans-serif;  
+    font-size: 16pt;
+    font-weight: 500;
+    padding: 10px 10%;
+    color: white;
+    background-color: black;
+}
+
+.ur4 {
+    font-family: "Urbanist", sans-serif;  
+    font-size: 16pt;
+    font-weight: 500;   
+    color: white;
+    background-color: black;
+}
+
 
 .quote {
     width: 60%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.quote2 {
+    width: 100%;
     margin: auto;
     display: block;
     margin-bottom: 20px;
@@ -147,33 +175,14 @@ button {
     justify-content: center;
     padding: 20px 20px;
 }
-.ur2 {
-    font-family: "Urbanist", sans-serif;
-    font-size: 14pt;
-    font-weight: 500;
-    padding: 0px 10px;
-    width: 560px;
-    height: 35px;
-}
-.urp {
-    font-family: "Urbanist", sans-serif;
-    font-size: 14pt;
-    font-weight: 500;
-    background-color: yellow;
-    margin-left: 390px;
-    width: 300px;
-}
+
+
 .lesson {
     font-family: "Urbanist", sans-serif;
     background-color: black;
     padding: 200px 200px;
 }
-.ur3 {
-    font-family: "Urbanist", sans-serif;  
-    font-size: 14pt;
-    font-weight: 500;
-    color: white;
-}
+
 
 
 
